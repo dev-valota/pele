@@ -14,23 +14,23 @@ export const stories: Story[] = [
     id: 1,
     title: "O Rei do Futebol",
     headline: "Pelé: O Rei do Futebol",
-    content: "Nascido Edson Arantes do Nascimento em 23 de outubro de 1940, em Três Corações, Minas Gerais. Seu pai, Dondinho, também era jogador de futebol. Criado na pobreza em Bauru, São Paulo, ele engraxava sapatos e vendia amendoim para sobreviver. Seu pai o chamava de \"Dico\" — o apelido \"Pelé\" veio de colegas de escola, um nome que ele, na verdade, odiava quando criança.",
+    content: "Edson Arantes do Nascimento, o Pelé, é considerado o maior jogador da história do futebol. Nasceu em 23 de outubro de 1940, em Três Corações, Minas Gerais. É filho de João Ramos do Nascimento, o Dondinho, também ex-jogador, e de Celeste Arantes do Nascimento. Popularmente chamado de Rei do Futebol, ele faleceu aos 82 anos, em 29 de dezembro de 2022, em São Paulo.",
     bgClass: "bg-emerald-950",
     bgImage: "https://upload.wikimedia.org/wikipedia/commons/5/5e/Pele_con_brasil_%28cropped%29.jpg"
   },
   {
     id: 2,
-    title: "Infância Humilde",
-    headline: "Da Pobreza ao Prodígio",
-    content: "Crescendo em Bauru, São Paulo, Pelé não tinha dinheiro para uma bola de verdade. Ele jogava com meias enroladas e toranjas nas ruas. Aos 11 anos, foi descoberto pelo ex-internacional brasileiro Waldemar de Brito, que o treinou e declarou que um dia ele seria \"o maior jogador de futebol do mundo\".",
+    title: "A Origem do Apelido",
+    headline: "Como surgiu o nome Pelé?",
+    content: "Aos quatro anos, Edson mudou-se com a família para Bauru, em São Paulo. Influenciado pelo pai, ele sempre foi fã de futebol e gostava de atuar no gol, inspirado no goleiro Bilé, amigo do pai. Como não conseguia pronunciar o nome Bilé corretamente, falava algo como \"Seguuura, Pilééé!\" durante os jogos. Os amigos passaram a chamá-lo de Pelé. Ele não gostou do apelido, e foi exatamente aí que o nome pegou.",
     bgClass: "bg-amber-950",
     bgImage: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/Pel%C3%A9_1960.jpg/500px-Pel%C3%A9_1960.jpg"
   },
   {
     id: 3,
-    title: "Santos FC",
-    headline: "Santos FC: Uma Lenda Nasce",
-    content: "Pelé entrou no Santos FC em 1956, com apenas 15 anos. Marcou gol em sua estreia e nunca olhou para trás. Passou 18 anos no Santos, marcando 643 gols em 659 jogos oficiais. Com o Santos, conquistou 6 Campeonatos Brasileiros e 2 Copas Libertadores (1962 e 1963). O Santos viajou o mundo — países inteiros declaravam tréguas em guerras para assistir Pelé jogar.",
+    title: "Santos Futebol Clube",
+    headline: "Uma Lenda Nasce no Santos",
+    content: "Em 1956, com 16 anos, Pelé chegou ao Santos como promessa de Waldemar de Brito, que afirmou ao clube: \"Esse menino vai ser o melhor jogador de futebol do mundo!\". Em sua estreia profissional, contra o Corinthians de Santo André, o Santos venceu por 7 a 1 e Pelé marcou o sexto gol. Ainda com 16 anos, tornou-se artilheiro do Campeonato Paulista, com 36 gols. No total, fez 1.116 jogos e marcou 1.091 gols pelo Santos.",
     bgClass: "bg-slate-950",
     bgImage: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Pele_Netherlands_1962_%28cropped%29.jpg/500px-Pele_Netherlands_1962_%28cropped%29.jpg"
   },
@@ -38,7 +38,7 @@ export const stories: Story[] = [
     id: 4,
     title: "Copa do Mundo 1958",
     headline: "Com 17 Anos, Conquistou o Mundo",
-    content: "Na Copa do Mundo de 1958, na Suécia, o jovem Pelé de 17 anos tornou-se o mais jovem jogador a marcar em uma final de Copa do Mundo. Ele marcou 6 gols no torneio, incluindo um hat-trick incrível na semifinal contra a França e 2 gols na final contra a Suécia. O Brasil venceu por 5 a 2. Pelé chorou de alegria — e o mundo chorou com ele.",
+    content: "Na Copa de 1958, na Suécia, Pelé tornou-se o jogador mais jovem a vencer uma Copa do Mundo, com apenas 17 anos e 8 meses. Fez seis gols no torneio e foi artilheiro do Brasil. Curiosamente, como era reserva, a FIFA atribuiu aleatoriamente a ele a camisa 10, número que ficou eternizado em suas costas. Os franceses foram os primeiros a chamá-lo de Rei do Futebol.",
     statBadge: "6 gols aos 17 anos",
     bgClass: "bg-neutral-950",
     bgImage: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/1958_VM-final_Sverige-Brasilien.jpg/500px-1958_VM-final_Sverige-Brasilien.jpg"
@@ -47,7 +47,7 @@ export const stories: Story[] = [
     id: 5,
     title: "Copa do Mundo 1962",
     headline: "Lesionado, Mas Ainda Campeão",
-    content: "Na Copa do Mundo de 1962, no Chile, Pelé se lesionou no segundo jogo e não pôde mais atuar. Mesmo assim, o Brasil venceu — um testemunho da equipe que ele havia ajudado a construir. Ele voltou para casa campeão, mesmo observando das arquibancadas. Seu legado já era maior do que qualquer torneio.",
+    content: "Na Copa de 1962, no Chile, Pelé marcou um gol antológico logo no primeiro jogo, contra o México. Porém, sofreu uma contusão no segundo jogo e ficou fora do restante do torneio. A sorte do Brasil era que havia outras estrelas como Nílton Santos, Didi, Zagallo, Vavá e Garrincha, que garantiram o bicampeonato. Pelé voltou para casa campeão, mesmo observando das arquibancadas.",
     bgClass: "bg-emerald-950",
     bgImage: "https://upload.wikimedia.org/wikipedia/commons/5/5a/PEL%C3%89_-_1963_%28cropped%29.jpg"
   },
@@ -55,7 +55,7 @@ export const stories: Story[] = [
     id: 6,
     title: "Copa do Mundo 1966",
     headline: "Derrubado em Campo",
-    content: "A Copa do Mundo de 1966, na Inglaterra, foi um capítulo sombrio. Pelé foi alvo de faltas brutais — especialmente por jogadores de Portugal — e o Brasil foi eliminado na fase de grupos. Um Pelé machucado e humilhado jurou que nunca mais jogaria em uma Copa do Mundo. Mais tarde, mudou de ideia.",
+    content: "A Copa de 1966, na Inglaterra, foi um capítulo sombrio. Pelé foi alvo de faltas brutais, especialmente por jogadores de Portugal, e o Brasil foi eliminado na fase de grupos. Um Pelé machucado e humilhado jurou que nunca mais jogaria em outra Copa do Mundo. Mais tarde, mudou de ideia e voltou para escrever o capítulo mais glorioso de sua carreira.",
     quote: "Estou saindo da Copa do Mundo e nunca mais jogarei em outra.",
     bgClass: "bg-rose-950",
     bgImage: "https://upload.wikimedia.org/wikipedia/commons/b/b8/Panini_pele_photo_only.jpg"
@@ -64,42 +64,41 @@ export const stories: Story[] = [
     id: 7,
     title: "Copa do Mundo 1970",
     headline: "A Maior Equipe de Todos os Tempos",
-    content: "A seleção brasileira de 1970 é amplamente considerada a maior equipe internacional da história. Pelé, Tostão, Jairzinho, Rivelino, Gerson — uma escalação de lendas. Pelé marcou 4 gols e fez jogadas icônicas, incluindo o famoso drible sobre o goleiro do Uruguai que deixou o arqueiro no chão. O Brasil conquistou a Taça Jules Rimet definitivamente com uma vitória por 4 a 1 sobre a Itália na final.",
-    statBadge: "3x Campeão Mundial",
+    content: "A seleção de 1970, no México, é amplamente considerada a melhor de todos os tempos. Além de Pelé, o time tinha Jairzinho, Rivelino, Carlos Alberto, Clodoaldo, Tostão, Gérson e Félix. Pelé marcou 4 gols, incluindo o primeiro da final contra a Itália. O Brasil venceu por 4 a 1 e conquistou o tricampeonato. Jairzinho foi o artilheiro com sete gols, mas Pelé foi a alma daquela equipe histórica.",
+    statBadge: "Tricampeão Mundial",
     bgClass: "bg-neutral-900",
     bgImage: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/Pele_celebrating_1970.jpg/960px-Pele_celebrating_1970.jpg"
   },
   {
     id: 8,
     title: "O Milésimo Gol",
-    headline: "1.000 Gols: Um Número que Ninguém Acreditava",
-    content: "Em 19 de novembro de 1969, Pelé marcou seu milésimo gol na carreira — um pênalti contra o Vasco da Gama, no Maracanã, com 80.000 torcedores em lágrimas. Ele apontou para o céu e chorou. Oficialmente, a FIFA reconhece 1.281 gols em 1.363 jogos — o maior número de qualquer jogador profissional na história do futebol.",
+    headline: "1.000 Gols: Um Feito Histórico",
+    content: "Em 19 de novembro de 1969, Pelé marcou seu milésimo gol na carreira em uma cobrança de pênalti contra o Vasco da Gama, no Maracanã, com 80.000 torcedores em lágrimas. Ele apontou para o céu e chorou. De acordo com o Guinness Book, Pelé marcou 1.281 gols ao longo de sua carreira, sendo o maior artilheiro da história do futebol profissional. Pela Seleção Brasileira, foram 95 gols, ainda o maior artilheiro da história da equipe masculina.",
     statBadge: "1.281 gols na carreira",
     bgClass: "bg-black",
     bgImage: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Brazil_1970.JPG/500px-Brazil_1970.JPG"
   },
   {
     id: 9,
-    title: "Nova Iorque",
-    headline: "Levando o Futebol para os Estados Unidos",
-    content: "Em 1975, após se aposentar do Santos, Pelé assinou um surpreendente contrato de 7 milhões de dólares com o New York Cosmos da Liga Norte-Americana de Futebol — algo inédito na época. Ele ajudou a popularizar o futebol nos Estados Unidos, atraindo multidões imensas. Aposentou-se definitivamente em 1977, após a vitória do Cosmos no Soccer Bowl, com seu último jogo assistido por 75.000 torcedores e milhões pela televisão.",
+    title: "New York Cosmos",
+    headline: "Levando o Futebol aos Estados Unidos",
+    content: "Em 1975, após se aposentar do Santos, Pelé assinou contrato com o New York Cosmos da NASL. A chegada gerou um impacto enorme: o público médio saltou de 3.578 pessoas por jogo em 1974 para 34.142 em 1977. Em 1976, chegaram Beckenbauer e Chinaglia para reforçar o time, e Pelé foi eleito o MVP da liga. No Cosmos, fez 106 partidas e marcou 64 gols. Em 1977, ao lado de Carlos Alberto Torres, foi campeão da NASL.",
     bgClass: "bg-blue-950",
     bgImage: "https://upload.wikimedia.org/wikipedia/commons/c/c8/Pele_debut_v_tornado.jpg"
   },
   {
     id: 10,
-    title: "O Legado",
-    headline: "O Maior de Todos os Tempos",
-    content: "Eleito Jogador do Século pela FIFA ao lado de Diego Maradona. Nomeado Atleta do Século pelo Comitê Olímpico Internacional. Tricampeão da Copa do Mundo da FIFA (1958, 1962, 1970). Nomeado Ministro Extraordinário do Esporte do Brasil em 1995. Embaixador de Boa Vontade da UNICEF. O único jogador a conquistar três Copas do Mundo. Seu nome é sinônimo do futebol.",
-    statBadge: "Jogador do Século pela FIFA",
+    title: "Curiosidades",
+    headline: "Fatos que Poucos Conhecem",
+    content: "Pelé é formado em Educação Física pela Universidade Metropolitana de Santos. Aos 18 anos, alistou-se no Exército Brasileiro e era chamado de Soldado 201 Nascimento. Em 1969, o Santos viajou à Nigéria durante a Guerra de Biafra e o governo nigeriano decretou um cessar-fogo para que a equipe pudesse jogar em segurança. Em 1995, Pelé foi nomeado Ministro do Esporte e criou a Lei Pelé, que extinguiu o passe dos jogadores e transformou os clubes em empresas.",
     bgClass: "bg-amber-950",
     bgImage: "https://upload.wikimedia.org/wikipedia/commons/b/b6/Pele_libro_elegido.jpg"
   },
   {
     id: 11,
-    title: "A Pessoa",
+    title: "Vida Pessoal",
     headline: "O Homem Por Trás do Mito",
-    content: "Pelé foi casado três vezes e teve 7 filhos. Era conhecido por seu calor humano, humor e fé profunda. Apesar da fama e da riqueza globais, ele nunca esqueceu suas origens — retornou frequentemente a Bauru e defendeu as comunidades pobres que o formaram como pessoa.",
+    content: "Pelé foi casado três vezes. O primeiro casamento, com Rosemari Cholbi (1966 a 1978), rendeu três filhos: Kelly Cristina, Jennifer e Edson (Edinho). O segundo casamento foi com a cantora gospel Assíria Lemos Seixas (1994 a 2008), com quem teve os gêmeos Celeste e Joshua. Em 2016, oficializou a união com Marcia Cibele Aoki. Em 1996, reconheceu judicialmente a filha Sandra Regina. Fora dos casamentos, teve ainda a filha Flávia Kurtz.",
     bgClass: "bg-stone-950",
     bgImage: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Pel%C3%A9_%26_Lula.jpg/960px-Pel%C3%A9_%26_Lula.jpg"
   },
@@ -107,15 +106,16 @@ export const stories: Story[] = [
     id: 12,
     title: "A Despedida",
     headline: "O Último Capítulo de um Rei",
-    content: "Em seus últimos anos, Pelé enfrentou câncer de cólon e insuficiência renal. Foi internado diversas vezes a partir de 2021. Em 29 de dezembro de 2022, Edson Arantes do Nascimento — Pelé — faleceu aos 82 anos, em São Paulo. O Brasil decretou três dias de luto nacional. Seu corpo ficou em velório no estádio Vila Belmiro, onde 230.000 pessoas foram prestar suas homenagens. O mundo voltou a chorar.",
+    content: "Em seus últimos anos, Pelé enfrentou um câncer de cólon com metástases no intestino, pulmão e fígado. Em 29 de dezembro de 2022, Edson Arantes do Nascimento faleceu aos 82 anos, por falência múltipla de órgãos. O Brasil decretou três dias de luto nacional. O velório ocorreu nos dias 2 e 3 de janeiro de 2023, no estádio da Vila Belmiro, em Santos, onde 230.000 pessoas foram se despedir do Rei.",
     bgClass: "bg-zinc-950",
     bgImage: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Inaugura%C3%A7%C3%A3o_da_est%C3%A1tua_.jpg/960px-Inaugura%C3%A7%C3%A3o_da_est%C3%A1tua_.jpg"
   },
   {
     id: 13,
-    title: "Para Sempre",
-    headline: "O Rei Vive Para Sempre",
-    content: "\"Pelé não é apenas um nome. Ele não é apenas um jogador. Ele é uma ideia — a ideia de que beleza e excelência podem coexistir, que o esporte pode transcender todas as barreiras. Ele é o motivo pelo qual bilhões de pessoas amam o futebol.\" — homenagens vieram de Messi, Ronaldo, Mbappé, Neymar e líderes mundiais. O Rei. Para sempre.",
+    title: "Títulos e Homenagens",
+    headline: "O Legado de O Rei",
+    content: "Pelé conquistou 10 Campeonatos Paulistas, 6 Campeonatos Brasileiros, 2 Copas Libertadores, 2 Mundiais de Clubes e 3 Copas do Mundo. Recebeu a Bola de Ouro em 1958, 1959, 1960, 1961, 1963, 1964 e 1970. Foi eleito Atleta do Século pelo Comitê Olímpico Internacional em 1999 e Maior Futebolista do Século pela Unicef. Recebeu o título de Sir Cavaleiro Honorário do Império Britânico da Rainha Elizabeth II em 1997. O único tricampeão mundial da história.",
+    statBadge: "Atleta do Século",
     bgClass: "bg-black",
     bgImage: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/Carlos_Alberto_comforts_Pel%C3%A9_at_his_final_game_1977.jpg/500px-Carlos_Alberto_comforts_Pel%C3%A9_at_his_final_game_1977.jpg"
   }
