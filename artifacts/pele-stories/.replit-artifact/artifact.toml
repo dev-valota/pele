@@ -1,0 +1,31 @@
+kind = "web"
+previewPath = "/"
+title = "Pelé Stories"
+version = "1.0.0"
+id = "artifacts/pele-stories"
+router = "path"
+
+[[integratedSkills]]
+name = "react-vite"
+version = "1.0.0"
+
+[[services]]
+name = "web"
+paths = [ "/" ]
+localPort = 24101
+
+[services.development]
+run = "pnpm --filter @workspace/pele-stories run dev"
+
+[services.production]
+build = [ "pnpm", "--filter", "@workspace/pele-stories", "run", "build" ]
+publicDir = "artifacts/pele-stories/dist/public"
+serve = "static"
+
+[[services.production.rewrites]]
+from = "/*"
+to = "/index.html"
+
+[services.env]
+PORT = "24101"
+BASE_PATH = "/"

@@ -1,0 +1,26 @@
+uploads = []
+outputs = []
+
+[[generated]]
+id = "Hywavjf5XT5l0WzzUvu33"
+uri = "file://artifacts/pele-stories/public/images/wc-1958.png"
+type = "image"
+title = "1958 world cup pele"
+
+[[generated]]
+id = "W6f4Xm43i-3HtoVWQZJOZ"
+uri = "file://artifacts/pele-stories/public/images/wc-1970.png"
+type = "image"
+title = "1970 world cup pele"
+
+[[generated]]
+id = "myjHHOyIlt2JD3c8PGDyb"
+uri = "file://artifacts/pele-stories/public/images/goals-1000.png"
+type = "image"
+title = "pele 1000 goals"
+
+[[generated]]
+id = "tR44nNKyorvm5QCu0neBk"
+uri = "file://artifacts/pele-stories/public/images/tribute.png"
+type = "image"
+title = "pele tribute crown"
